@@ -52,7 +52,7 @@ Dedup Key::     All actions sharing this key will be associated with the same Pa
 Timestamp::     An *optional* https://v2.developer.pagerduty.com/v2/docs/types#datetime[ISO-8601 format date-time], indicating the time the event was detected or generated.
 Component::     An *optional* value indicating the component of the source machine that is responsible for the event, for example `mysql` or `eth0`.
 Group::         An *optional* value indicating the logical grouping of components of a service, for example `app-stack`.
-Source::        An *optional* value indicating the affected system, preferably a hostname or fully qualified domain name. Defaults to the {kib} saved object id of the action.
+Source::        An value indicating the affected system, preferably a hostname or fully qualified domain name. Defaults to the {kib} saved object id of the action.
 Summary::       An *optional* text summary of the event, defaults to `No summary provided`. The maximum length is 1024 characters.
 Class::         An *optional* value indicating the class/type of the event, for example `ping failure` or `cpu load`.
 
